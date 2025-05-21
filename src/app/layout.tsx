@@ -27,6 +27,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <div className="w-full border-b-2 p-4 pl-10  text-left  text-3xl">Sidhe Maut
+        </div>
         {children}
       </body>
     </html>
